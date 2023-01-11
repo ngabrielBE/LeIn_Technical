@@ -122,8 +122,7 @@ export default class SendCustomSMS extends LightningElement {
     }
 
     clearFields() {
-
-this.template.querySelectorAll('lightning-textarea, lightning-input, lightning-combobox').forEach((input) => { input.value = ''; });
+    this.template.querySelectorAll('lightning-textarea, lightning-input, lightning-combobox').forEach((input) => { input.value = ''; });
    }
 
    toastMessage(status, message){
@@ -133,7 +132,7 @@ this.template.querySelectorAll('lightning-textarea, lightning-input, lightning-c
             message: 'Sms sent. Status: ' + message,
             variant: 'success',
         });
-        this.dispatchEvent(evt).clearFields();
+        this.dispatchEvent(evt);
         setTimeout(() => {
             this.clearFields();
         }, 1280);
