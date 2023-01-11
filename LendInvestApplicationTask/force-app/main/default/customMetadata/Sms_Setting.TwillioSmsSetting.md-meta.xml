@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>TwillioSmsSetting</label>
+    <protected>false</protected>
+    <values>
+        <field>AccountSID__c</field>
+        <value xsi:type="xsd:string">AC4b93d6e54100ca2c73718ce996f8970e</value>
+    </values>
+    <values>
+        <field>FromNumber__c</field>
+        <value xsi:type="xsd:string">+15005550006</value>
+    </values>
+    <values>
+        <field>ToNumber__c</field>
+        <value xsi:type="xsd:string">+447702358121</value>
+    </values>
+    <values>
+        <field>Token__c</field>
+        <value xsi:type="xsd:string">54c5ed3a6af9dd402a0e2bd6263622dc</value>
+    </values>
+</CustomMetadata>
